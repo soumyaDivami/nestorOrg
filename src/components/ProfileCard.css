@@ -1,0 +1,96 @@
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  min-width: 200px;
+  min-height: 300px;
+  cursor: pointer;
+  color: #3d3d3d;
+}
+.cardInfo:hover {
+  border: 2px solid #ff1400;
+  box-shadow: 0px 0px 6px #ff1400;
+  /* background-color: rgba(255,20,0, 0.75); */
+  /* color: #fff; */
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.userDetails_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.userImgContainer {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  position: relative;
+}
+.userImg {
+  max-width: 80px;
+  max-height: 80px;
+  width: 100%;
+  /* border: 4px solid #ccc; */
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  background-color: #fff;
+}
+.userImgPlaceHolder {
+  max-width: 80px;
+  max-height: 80px;
+  width: 100%;
+  /* border: 4px solid #ccc; */
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+.userName {
+  font-family: SF UI Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-size: 18px;
+  font-weight: 500;
+  /* color: #3d3d3d; */
+  /* white-space: nowrap; */
+  /* text-overflow: ellipsis; */
+  max-width: 180px;
+  /* overflow: hidden; */
+}
+.userDesignation {
+  font-family: SF UI Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-size: 14px;
+  font-weight: 400;
+  /* color: #3d3d3d; */
+}
+.joinedOn,
+.supervisee {
+  font-family: SF UI Text, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-size: 14px;
+  font-weight: 200;
+  /* color: #3d3d3d; */
+  justify-self: flex-end;
+}
